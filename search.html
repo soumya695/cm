@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        
+    <script type="text/javascript" >
+         var item = null;
+
+
+        function info(){
+            var results;
+            //alert("snck")
+            var book=document.getElementById("search").value;
+            
+                    var xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange=function(xhr)
+
+                    {
+                         
+                        if (this.readyState == 4 && this.status == 200) 
+                        {
+
+                          var res=xhttp.responseText;
+                          item=res;
+                          console.log(xhttp); 
+                          var data = JSON.parse(res);
+                          
+                            data=data['items']
+                            
+                          //console.log(data)  
+                          //document.getElementById("demo").innerHTML = this.responseText;
+                          var b=[];
+
+                         var a={};
+                          for (var i in data)
+                               {
+                                b.push({'title':data[i]['volumeInfo']['title'],'selfLink':data[i]['selfLink'],'Publisher':data[i]['volumeInfo']['publisher'] });
+
+
+//'Publisher':data[i]['volumeInfo']['publisher']
+                            }
+                                    //b=JSON.stringify(b);
+                                    //alert(b);
+                                    
+                                   //document.body.innerHTML = b;
+                        }
+                      };
+                    //var response = JSON.parse(httpRequest.responseText);
+                  
+            
+                    
+            xhttp.open("GET","https://www.googleapis.com/books/v1/volumes?q="+book,true);
+            
+            xhttp.send();
+        }
+        /*function get() {
+            if (httpRequest.readyState ==4 && httpRequest.status === 200) {
+           
+        
+            var response = JSON.parse(httpRequest.responseText);
+            alert(response.computedString);
+            
+        }       
+            else
+                {
+                    alert('There was a problem with the request.');
+                }
+  
+}*/
+
+</script>
+</head>
+
+
+            <script src="http://underscorejs.org/underscore-min.js"></script>
+            <script  type="text/html" id="list">
+
+                <table>
+                <thead>
+
+                <tr>
+                <th>title</th><th>selfLink</th><th>publisher</th>
+                </tr>
+                </thead>
+                <tbody>
+                
+                
+                <% _.each(items,function(item,i,j)
+                          { %>
+                          <% console.log(item) %>
+                          
+                          <tr onclick="fn()" id=<%= i %>>
+                          <td >
+                          
+                          <%= item.title %>
+                          
+                          </td>
+                          <td>
+                          <%= item.selfLink %>
+                          
+                          </td>
+                          <td>
+                          <%= item.publsiher %>
+                          
+                          </td>
+                          </tr>
+                          <% }); %>
+                          
+                          
+                          </tbody>
+                          
+                          </table>
+                          
+</script>
+
+<script type="text/javascript">
+    
+    var target = document.getElementById("target");
+    var list = document.getElementById("list");
+    var books = JSON.stringify('b');
+    var listDiv = list.innerHTML;
+    var templateData = _.template(listDiv);
+    console.log(books)
+    target.innerHTML =templateData({ items: books });
+</script>
+
+<body>
+<div id="div">
+    <input type="text" name="search" id="search" placeholder="search">
+    <input type="button" id="button" name="button" value="search" onclick="info()">
+</div>
+<div id="target"></div>
+</body>
+</html>
