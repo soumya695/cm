@@ -1,85 +1,46 @@
 <!DOCTYPE html>
 <html>
+<style type="text/css">
+    .nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+</style>
+
 <head>
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-        
-    <script type="text/javascript" >
-         var item = null;
+   
+    <script src="http://underscorejs.org/underscore-min.js"></script>
 
 
-        function info(){
-            var results;
-            //alert("snck")
-            var book=document.getElementById("search").value;
-            
-                    var xhttp = new XMLHttpRequest();
-                    xhttp.onreadystatechange=function(xhr)
-
-                    {
-                         
-                        if (this.readyState == 4 && this.status == 200) 
-                        {
-
-                          var res=xhttp.responseText;
-                          item=res;
-                          console.log(xhttp); 
-                          var data = JSON.parse(res);
-                          
-                            data=data['items']
-                            
-                          //console.log(data)  
-                          //document.getElementById("demo").innerHTML = this.responseText;
-                          var b=[];
-
-                         var a={};
-                          for (var i in data)
-                               {
-                                b.push({'title':data[i]['volumeInfo']['title'],'selfLink':data[i]['selfLink'],'Publisher':data[i]['volumeInfo']['publisher'] });
-
-
-//'Publisher':data[i]['volumeInfo']['publisher']
-                            }
-                                    //b=JSON.stringify(b);
-                                    //alert(b);
-                                    
-                                   //document.body.innerHTML = b;
-                        }
-                      };
-                    //var response = JSON.parse(httpRequest.responseText);
-                  
-            
-                    
-            xhttp.open("GET","https://www.googleapis.com/books/v1/volumes?q="+book,true);
-            
-            xhttp.send();
-        }
-        /*function get() {
-            if (httpRequest.readyState ==4 && httpRequest.status === 200) {
-           
-        
-            var response = JSON.parse(httpRequest.responseText);
-            alert(response.computedString);
-            
-        }       
-            else
-                {
-                    alert('There was a problem with the request.');
-                }
-  
-}*/
-
-</script>
 </head>
 
 
-            <script src="http://underscorejs.org/underscore-min.js"></script>
-            <script  type="text/html" id="list">
+<script type="text/javascript">
+
+    
+    
+
+</script>
+<body>
+    <div id="div">
+        <input type="text" name="search" id="query" placeholder="search"  >
+       
+    </div>
+    
+    
+</body>
+
+
+
+
+<script type="text/html" id="list">
 
                 <table>
                 <thead>
 
                 <tr>
-                <th>title</th><th>selfLink</th><th>publisher</th>
+                <th>title</th><th>selfLink</th><th>thumbnail</th><th>publisher</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -89,22 +50,29 @@
                           { %>
                           <% console.log(item) %>
                           
-                          <tr onclick="fn()" id=<%= i %>>
+                          <tr >
                           <td >
                           
                           <%= item.title %>
                           
                           </td>
-                          <td>
+                          <td >
+                          
                           <%= item.selfLink %>
                           
                           </td>
                           <td>
-                          <%= item.publsiher %>
+                          <img src="<%= item.imageLinks %>.jpeg" data-url="<%= item.selfLink %>" class="thumbnail" id="id<%= i %>" />
+
+
+                          
+                          </td>
+                          <td>
+                          <%= item.publisher %>
                           
                           </td>
                           </tr>
-                          <% }); %>
+                    <% }); %>
                           
                           
                           </tbody>
@@ -113,22 +81,158 @@
                           
 </script>
 
-<script type="text/javascript">
+      
+    <div id="target"></div>
+    <br>
+    <br>
+ <div style="float: right;"> 
     
-    var target = document.getElementById("target");
-    var list = document.getElementById("list");
-    var books = JSON.stringify('b');
-    var listDiv = list.innerHTML;
-    var templateData = _.template(listDiv);
-    console.log(books)
-    target.innerHTML =templateData({ items: books });
+    <div id="get1"></div>
+    <div id="get2"></div>
+    <div id="get3"></div>
+    <div id="get4"></div>
+    <div id="get5"></div>
+</div>
+  
+     
+       
+
+    
+    <script type="text/javascript" >
+
+
+    function renderbookdetails(data)
+    {
+
+        var getdetails=JSON.parse(data);
+
+        var d=getdetails['volumeInfo'];
+        var obj = {
+                "title": d.title,
+                'authors': d.authors,
+                'Publisher': d.publisher,
+                'publishedDate': d.publishedDate,
+                'description': d.description
+      
+             }
+             console.log(obj);
+        
+         document.getElementById("get1").innerHTML=obj.title;
+         document.getElementById("get2").innerHTML=obj.authors;
+         document.getElementById("get3").innerHTML=obj.publisher;
+         document.getElementById("get4").innerHTML=obj.publishedDate;
+         document.getElementById("get5").innerHTML=obj.description;     
+
+
+}
+
+
+    function processBookDetails(obj)
+    {
+        
+        //console.log(obj.target.id,obj.target.id);
+        var url = document.getElementById(obj.target.id).getAttribute("data-url");
+
+        //console.log(url)
+        ajaxCall(url,renderbookdetails) 
+
+
+    }
+
+    function renderbooks(data) 
+
+
+    {
+       
+        var data = JSON.parse(data);
+
+        data = data['items']
+
+        var books = [];
+
+        var book = {};
+        
+        for (var i in data) 
+        {
+       // var thumb=data[i]['volumeInfo']['imageLinks']['smallThumbnail'];
+            books.push(
+                { 
+                    'title': data[i]['volumeInfo']['title'], 
+                    'selfLink': data[i]['selfLink'],
+                    'imageLinks': data[i]['volumeInfo']['imageLinks']['smallThumbnail'],
+                    'publisher': data[i]['volumeInfo']['publisher']
+                    
+                }
+            );
+        }
+
+        console.log(books)
+        var target = document.getElementById("target");
+        var list = document.getElementById("list");
+        // // var books = JSON.stringify('b');
+        var listDiv = list.innerHTML;
+        var templateData = _.template(listDiv);
+
+        target.innerHTML = templateData({ items: books });
+        // console.log(document.getElementsByClassName('thumbnail'))
+        
+
+        function addEventListenerByClass(className, event, fn) 
+        {
+            var list = document.getElementsByClassName(className);
+            for (var i = 0, len = list.length; i < len; i++)
+            {
+                list[i].addEventListener(event, fn, false);
+            }
+        }
+
+        addEventListenerByClass('thumbnail', 'click', processBookDetails); 
+    }
+
+    // AJAX call function - not a predefined. this function takes url to do ajax call and the call back is a function a call on success of ajax request.    
+    function ajaxCall(url,callback)
+    {
+
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function (xhr) 
+        {
+
+            if (this.readyState == 4 && this.status == 200) 
+            {
+
+                callback(xhttp.responseText);  
+            }
+        };
+        //console.log(url)
+        xhttp.open("GET", url, true);
+
+        xhttp.send();
+
+    }
+
+    function info(event)
+     {
+        var results;
+        var query = document.getElementById("query").value;
+        if(query.length==3 && query.length>=3)
+          {  
+          
+          var url = "https://www.googleapis.com/books/v1/volumes?key=AIzaSyDvYa0R-SkjIKHWIv0d6_7EI5xZoUumR3w&q="+query
+
+          ajaxCall(url,renderbooks)
+         }
+         else
+         {
+          
+         }
+    }
+
+    document.getElementById('query').addEventListener('keyup',info)
 </script>
 
-<body>
-<div id="div">
-    <input type="text" name="search" id="search" placeholder="search">
-    <input type="button" id="button" name="button" value="search" onclick="info()">
-</div>
-<div id="target"></div>
-</body>
+
+
+
+
+
 </html>
