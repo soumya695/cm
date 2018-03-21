@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   
+    <script src="http://underscorejs.org/underscore-min.js"></script>
+</head>
+
+<body>
+    
+        <input type="text" name="search" id="query" placeholder="search"  >
+       <input type="button" name="button" id="button" value="search" onclick="info()">
+       <br>
+    <select id="div"> 
+    </select>
+    
+</body>
+
+<script type="text/html" id="list">
+
+                <table>
+                <thead>
+
+                <tr>
+                 <th>title</th><br><th>artist</th><th>genre</th><th>language</th><th>url</th>
+                </tr>
+                </thead>
+                <tbody>
+                
+                
+                <% _.each(items,function(item,i,j)
+                          { %>
+                          <% console.log(item) %>
+                          
+                          <tr >
+                          <td >
+                          
+                          <%= item.title %>
+                          
+                          </td>
+                          <td  >
+                          
+                          <%= item.artist  %>
+                          </td>
+                          <td width="50">
+                           <%= item.genre%>
+                          </td>
+                          <td>
+                          <%= item.language %>
+                          
+                          </td>
+                          <td>
+                            <%= item.url %>
+                          </td>
+                          </tr>
+                    <% }); %>
+                          
+                          
+                          
+                          </tbody>
+                          
+                          </table>
+                          
+</script>
+
+    <div id="target"></div>
+
+    <br>
+    <br>
+
+  
+     <script type="text/javascript" >
+
+    function info()
+    {
+        var results;
+        
+        var query = document.getElementById("query").value;
+        var entry=localStorage.getItem('input');
+
+       
+        if(entry!==null) {
+           entry=JSON.parse(entry);
+
+        }
+        else{
+          entry=[];  
+        }
+        entry.push(query)
+        localStorage.setItem('input',JSON.stringify(entry));
+        document.getElementById('div').innerHTML="";
+        
+        entry.map(
+          function(value,key){
+            var newLi = document.createElement("option")
+            newLi.innerHTML = value;
+
+            document.getElementById('div').appendChild(newLi);
+          })
+    }
+
+       
+        
+        //document.getElementById('div'). = entry;
+    function set()
+    {    
+        var query = document.getElementById("div").value;
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function (xhr) 
+        {
+
+            if (this.readyState == 4 && this.status == 200) 
+            {
+                var d=xhttp.responseText;
+
+                var data = JSON.parse(d);
+               // data = JSON.stringify(data);
+
+                
+                //data = JSON.stringify(data['items']);
+                //alert(data)
+                // console.log(data);
+
+                var videos = [];
+
+                data.items.map(
+                  function(value, key) 
+                  {
+                    if(value['title'].indexOf(query) > -1)
+                     {
+                        videos.push
+                        (
+                          { 
+                                  'title': value['title'],
+                                  'artist': value['artist'],
+                                  'genre': value['genre'],
+                                  'language':value['language'],
+                                  'url': value['url'] 
+                                
+                          }
+                        );
+                     }   
+                     get(JSON.stringify(videos));                 
+                  }
+                )
+                //alert(JSON.stringify(videos));
+                
+             
+            }
+           
+                
+            
+             
+        };
+        
+        xhttp.open("GET", "video.json", true);
+
+        xhttp.send();
+
+    }
+
+   
+               function get(item)
+               {
+                
+
+                var data=JSON.parse(item);
+               
+                
+
+                //localStorage.setItem('allEntries','existing'); 
+                var target = document.getElementById("target");
+                var list = document.getElementById("list");
+                
+                var listDiv = list.innerHTML;
+                var templateData = _.template(listDiv);
+                //
+                target.innerHTML = templateData({ items: data });
+}
+
+      
+       document.getElementById('div').addEventListener('change',set)
+    
+   
+ 
+</script>
+</html>
+
