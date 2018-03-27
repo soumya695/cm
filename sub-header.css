@@ -1,0 +1,11 @@
+.sub-header{
+	background-color: #fff;
+	padding: 20px;
+	margin-top: 0px;
+}
+.sub-header label{
+ 	font-family: 'OpenSansSemibold';
+	font-size: 15px;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}

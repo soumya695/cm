@@ -1,0 +1,55 @@
+/*responsive css*/
+@media screen and (max-width: 991px){
+	.team-header {
+		background-image: none;
+		background-color: #fff;
+		height: auto;
+		padding: 15px 0px;
+		margin: 0;
+		margin-bottom: 10px;
+	}
+	.user-details .user-name,
+	.user-details .user-team-name,
+	.user-details .user-team-status{
+		color: #000;
+		/*font-size: 19px;*/
+		/*margin-top: 9px;*/
+	}
+	.userScore-details ul {
+		margin-bottom: 0px;
+		padding: 10px;
+		padding-top: 10px;
+	}
+	.userScore-details, .pasScore-details {
+		margin-top: 0px;
+		padding: 0px;
+		background-color: #fff;
+		text-align: left;
+		margin-bottom: 10px;
+	}
+	.sub-header {
+		background-color: #fff;
+		padding: 20px;
+		margin-top: 0px;
+	}
+	.userScore-details .btn-theme{
+		margin-left: 15px;
+	}
+	.mpad0{
+		padding: 0px;
+	}
+	.user-details {
+		margin-top: -16px;
+	}
+	.daily-challenge label,
+	.daily-team-name li,
+	.daily-challenge span,
+	.userScore-details ul li {
+		color: #000;
+	}
+}
+@media screen and (max-width: 420px){
+	.userScore-details ul li {
+		font-size: 11px;
+	}
+}

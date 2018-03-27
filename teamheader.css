@@ -1,0 +1,217 @@
+.team-header {
+    background-image: url("../images/header-bg.png");
+    background-size: cover;
+    padding: 15px 0px;
+    height: 107px;
+    margin-bottom: 15px;
+}
+
+
+/*user details*/
+
+.user-img {
+    background-color: #050d22;
+    width: 75px;
+    height: 75px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.user-img img {
+    width: 100%;
+}
+
+.user-details {
+    display: inline-block;
+    padding-left: 15px;
+    vertical-align: middle;
+}
+
+.new-league .user-details {
+    margin-top: 12px;
+    vertical-align: top;
+}
+
+.user-details label {
+    font-family: 'OpenSansRegular';
+    color: #fff;
+    display: block;
+    margin-bottom: 0px;
+}
+
+.user-details .user-name {
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.user-details .user-team-name {
+    font-size: 22px;
+}
+
+.user-team-status {
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+
+/*daily challenge*/
+
+.daily-challenge label {
+    font-family: 'OpenSansRegular';
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.daily-team-name {
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.daily-team-name li {
+    display: inline-block;
+    padding: 0px 5px;
+    font-family: 'OpenSansRegular';
+    font-size: 16px;
+    color: #fff;
+}
+
+.daily-challenge span {
+    font-family: 'OpenSansRegular';
+    color: #fff;
+    font-size: 14px;
+}
+
+
+/*score details*/
+
+.userScore-details,
+.pasScore-details {
+    text-align: right;
+    margin-top: 3px;
+}
+
+.userScore-details ul {
+    margin-bottom: 15px;
+}
+
+.userScore-details ul li {
+    display: inline-block;
+    color: #fff;
+    font-family: 'OpenSansRegular';
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 0px 2px;
+    text-transform: uppercase;
+}
+
+
+/*past total*/
+
+.pastScore-details,
+.p-total {
+    float: right;
+    margin-top: 3px;
+}
+
+.pastScore-details ul {
+    margin-bottom: 0px;
+}
+
+.pastScore-details ul li {
+    display: inline-block;
+    padding: 0px 2px;
+    font-family: 'OpenSansRegular';
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.p-total label,
+.p-total span {
+    font-family: 'OpenSansRegular';
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.league-challenge-code span {
+    font-family: 'OpenSansRegular';
+    font-size: 16px;
+    position: relative;
+    top: 25px;
+    color: #fff;
+}
+
+@media screen and (min-width: 991px) and (max-width: 1150px) {
+    .single-row .user-details {
+        margin-top: 5px;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .addperson,
+    .create-league,
+    .fantasy-league,
+    .fantasy-team,
+    .dailychallenge {
+        width: 100px !important;
+    }
+    .fantasy-team {
+        height: 68px !important;
+    }
+    .single-row.team-header {
+        height: 95px;
+    }
+    /*team header*/
+    .daily-challenge {
+        margin: 15px 0px;
+        border-top: 1px solid #f6f6f6;
+        padding: 15px 0px;
+        border-bottom: 1px solid #f6f6f6;
+        margin-bottom: 0px;
+    }
+    .addperson {
+        width: 130px !important;
+    }
+    .pastScore-details,
+    .p-total {
+        float: none;
+        margin: 5px 0px;
+        color: #000;
+        padding: 10px 10px;
+        border-top: none;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .pastScore-details ul li {
+        padding: 0px 2px;
+        font-size: 13px;
+        color: #000;
+    }
+    .p-total {
+        padding: 5px 4px;
+    }
+    .p-total label {
+        font-size: 14px;
+        color: #000;
+    }
+    .p-total span {
+        font-size: 13px;
+        color: #000;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .single-row .user-team-status {
+        display: none;
+    }
+    .fantasy-league {
+        width: 90px !important;
+        height: 58px !important;
+    }
+}

@@ -1,0 +1,336 @@
+/*active class*/
+
+.powerplay-active {
+    background-color: #ed3434 !important;
+}
+
+.table-section .table tbody tr.powerplay-active td {
+    color: #fff;
+}
+
+
+/*table section*/
+
+.table-section {
+    background-color: #fff;
+    overflow: auto;
+    margin-top: 0px;
+    margin-right: 0.02px;
+    position: relative;
+}
+
+.fixed-table-inner {
+    height: 500px;
+    overflow: auto;
+}
+
+.table-section .table thead tr {
+    background-color: #1c4fa2;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'OpenSansBold';
+    text-transform: uppercase;
+}
+
+.table-section .table thead tr th {
+    border-bottom: none;
+}
+
+.table-section .table tbody tr td {
+    font-family: 'OpenSansRegular';
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.8);
+    text-transform: capitalize;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.table-hover {
+    /*margin-top: -34px;*/
+}
+
+
+/*roll*/
+
+.allrounder-active,
+.allrounder,
+.batsman-active,
+.batsman,
+.bowler-active,
+.bowler,
+.foreign-active,
+.foreign,
+.keeper-active,
+.keeper,
+.uncapped-active,
+.uncapped {
+    max-width: 100%;
+    background-size: 100%;
+    background-image: url('cricket_image.png');
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    position: relative;
+    vertical-align: top;
+    opacity: 0.8;
+}
+
+.allrounder-active {
+    background-position: 0 0%;
+    background-size: 100%;
+}
+
+.allrounder {
+    background-position: 0 9.090909%;
+    background-size: 100%;
+}
+
+.batsman-active {
+    background-position: 0 18.181818%;
+    background-size: 100%;
+}
+
+.batsman {
+    background-position: 0 27.272727%;
+    background-size: 100%;
+}
+
+.bowler-active {
+    background-position: 0 36.363636%;
+    background-size: 100%;
+}
+
+.bowler {
+    background-position: 0 45.454545%;
+    background-size: 100%;
+}
+
+.foreign-active {
+    background-position: 0 54.545455%;
+    background-size: 100%;
+}
+
+.foreign {
+    background-position: 0 63.636364%;
+    background-size: 100%;
+}
+
+.keeper-active {
+    background-position: 0 72.727273%;
+    background-size: 100%;
+}
+
+.keeper {
+    background-position: 0 81.818182%;
+    background-size: 100%;
+}
+
+.uncapped-active {
+    background-position: 0 90.909091%;
+    background-size: 100%;
+}
+
+.uncapped {
+    background-position: 0 100%;
+    background-size: 100%;
+}
+
+
+/*action*/
+
+.close-active,
+.close-icon,
+.plus-active,
+.plus {
+    max-width: 100%;
+    background-size: 100%;
+    background-image: url('action.png');
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    position: relative;
+    vertical-align: top;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.close-active {
+    background-position: 0 0%;
+    background-size: 100%;
+}
+
+.close-icon {
+    background-position: 0 33.333333%;
+    background-size: 100%;
+}
+
+.plus-active {
+    background-position: 0 66.666667%;
+    background-size: 100%;
+}
+
+.plus {
+    background-position: 0 100%;
+    background-size: 100%;
+}
+
+
+/*add and delete action*/
+
+.action-close:hover .close-icon {
+    background-position: 0 0%;
+    background-size: 100%;
+}
+
+.action-add:hover .plus {
+    background-position: 0 66.666667%;
+    background-size: 100%;
+}
+
+
+/*team*/
+
+.flag {
+    max-width: 100%;
+    background-size: 100%;
+    background-image: url('team.png');
+    display: inline-block;
+    width: 29px;
+    height: 16px;
+    position: relative;
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+.flag.dd {
+    background-position: 0 0%;
+    background-size: 100%;
+}
+
+.flag.rpsg {
+    background-position: 0 14.285714%;
+    background-size: 100%;
+}
+
+.flag.srh {
+    background-position: 0 28.571429%;
+    background-size: 100%;
+}
+
+.flag.gl {
+    background-position: 0 42.857143%;
+    background-size: 100%;
+}
+
+.flag.kkr {
+    background-position: 0 57.142857%;
+    background-size: 100%;
+}
+
+.kxip {
+    background-position: 0 71.428571%;
+    background-size: 100%;
+}
+
+.flag.mi {
+    background-position: 0 85.714286%;
+    background-size: 100%;
+}
+
+.flag.rcb {
+    background-position: 0 100%;
+    background-size: 100%;
+}
+
+
+/*combines icons*/
+
+.combine {
+    margin-right: -13px;
+    z-index: 99;
+}
+
+
+/*table fixed css*/
+
+.duplicate-table {
+    background-color: #1c4fa2;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'OpenSansBold';
+    text-transform: uppercase;
+    position: relative;
+    z-index: 999;
+    margin-bottom: 0px;
+}
+
+.duplicate-table>thead>tr>th {
+    border-bottom: none;
+}
+
+@media screen and (max-width: 520px) {
+    .allrounder-active,
+    .allrounder,
+    .batsman-active,
+    .batsman,
+    .bowler-active,
+    .bowler,
+    .foreign-active,
+    .foreign,
+    .keeper-active,
+    .keeper,
+    .uncapped-active,
+    .uncapped {
+        width: 18px;
+        height: 18px;
+    }
+    .combine {
+        margin-right: -10px;
+    }
+    .table>thead:first-child>tr:first-child>th {
+        font-size: 11px;
+    }
+    .table-section .table tbody tr td {
+        font-size: 11px;
+    }
+}
+
+.header-background {
+    background-color: #1c4fa2;
+    height: 35px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.th-inner {
+    position: absolute;
+    top: 0;
+    line-height: 30px;
+    text-align: left;
+    z-index: 9999;
+}
+
+.delete,
+.ok {
+    max-width: 100%;
+    background-size: 100%;
+    background-image: url('operation.png');
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: 0px 5px;
+}
+
+.delete {
+    background-position: 0 0%;
+    background-size: 100%;
+}
+
+.ok {
+    background-position: 0 100%;
+    background-size: 100%;
+}

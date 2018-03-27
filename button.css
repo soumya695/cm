@@ -1,0 +1,63 @@
+.btn-theme{
+	background-image: -moz-linear-gradient( 90deg, rgb(28,79,162) 0%, rgb(57,114,206) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(28,79,162) 0%, rgb(57,114,206) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(28,79,162) 0%, rgb(57,114,206) 100%);
+	font-family: 'OpenSansRegular';
+	font-size: 13px;
+	color: #fff;
+	border-radius: 0px;
+	padding: 7px 25px;
+	text-transform: uppercase;
+	border: none;
+	border: 1px solid rgb(28,79,162);
+}
+.btn-theme:focus,
+.btn-theme:hover,
+.btn-theme:focus:active,
+.btn-theme.active:focus{
+    outline-offset: 0px;
+    outline:0;
+    color: #fff;
+   	background-image: -moz-linear-gradient( 90deg, rgb(28,79,162) 0%, rgb(57,114,206) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(28,79,162) 0%, rgb(57,114,206) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(28,79,162) 0%, rgb(57,114,206) 100%);
+}
+.btn-grey{
+	background-color: #d6d6d6;
+	font-family: 'OpenSansRegular';
+	font-size: 13px;
+	color: #000;
+	border-radius: 0px;
+	padding: 7px 25px;
+	text-transform: uppercase;
+	border: 1px solid #d6d6d6;
+}
+.btn-grey:focus,
+.btn-grey:hover,
+.btn-grey:focus:active,
+.btn-grey.active:focus{
+    outline-offset: 0px;
+    outline:0;
+    color: #000;
+	background-color: #d6d6d6;
+}
+.btn-white{
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	font-family: 'OpenSansSemibold';
+	font-size: 13px;
+	color: #000;
+	border-radius: 0px;
+	padding: 7px 25px;
+	text-transform: uppercase;
+}
+.btn-white:focus,
+.btn-white:hover,
+.btn-white:focus:active,
+.btn-white.active:focus{
+    outline-offset: 0px;
+    outline:0;
+    color: #000;
+	border: 1px solid #d6d6d6;
+	background-color: #fff;
+}

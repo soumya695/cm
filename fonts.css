@@ -1,0 +1,45 @@
+ @font-face {
+ 	font-family: 'OpenSansRegular';
+ 	src: url('../fonts/opensans-regular/OpenSansRegular.eot');
+ 	src: url('../fonts/opensans-regular/OpenSansRegular.eot') format('embedded-opentype'),
+ 	url('../fonts/opensans-regular/OpenSansRegular.woff2') format('woff2'),
+ 	url('../fonts/opensans-regular/OpenSansRegular.woff') format('woff'),
+ 	url('../fonts/opensans-regular/OpenSansRegular.ttf') format('truetype'),
+ 	url('../fonts/opensans-regular/OpenSansRegular.svg#OpenSansRegular') format('svg');
+ }
+ @font-face {
+ 	font-family: 'OpenSansSemibold';
+ 	src: url('../fonts/opensans-semibold/OpenSansSemibold.eot');
+ 	src: url('../fonts/opensans-semibold/OpenSansSemibold.eot') format('embedded-opentype'),
+ 	url('../fonts/opensans-semibold/OpenSansSemibold.woff2') format('woff2'),
+ 	url('../fonts/opensans-semibold/OpenSansSemibold.woff') format('woff'),
+ 	url('../fonts/opensans-semibold/OpenSansSemibold.ttf') format('truetype'),
+ 	url('../fonts/opensans-semibold/OpenSansSemibold.svg#OpenSansSemibold') format('svg');
+ }
+ @font-face {
+ 	font-family: 'OpenSansBold';
+ 	src: url('../fonts/opensans-bold/OpenSansBold.eot');
+ 	src: url('../fonts/opensans-bold/OpenSansBold.eot') format('embedded-opentype'),
+ 	url('../fonts/opensans-bold/OpenSansBold.woff2') format('woff2'),
+ 	url('../fonts/opensans-bold/OpenSansBold.woff') format('woff'),
+ 	url('../fonts/opensans-bold/OpenSansBold.ttf') format('truetype'),
+ 	url('../fonts/opensans-bold/OpenSansBold.svg#OpenSansBold') format('svg');
+ }
+ @font-face {
+ 	font-family: 'OpenSansItalic';
+ 	src: url('../fonts/opensans-italic/OpenSansItalic.eot');
+ 	src: url('../fonts/opensans-italic/OpenSansItalic.eot') format('embedded-opentype'),
+ 	url('../fonts/opensans-italic/OpenSansItalic.woff2') format('woff2'),
+ 	url('../fonts/opensans-italic/OpenSansItalic.woff') format('woff'),
+ 	url('../fonts/opensans-italic/OpenSansItalic.ttf') format('truetype'),
+ 	url('../fonts/opensans-italic/OpenSansItalic.svg#OpenSansItalic') format('svg');
+ }
+ @font-face {
+ 	font-family: 'OpenSansLight';
+ 	src: url('../fonts/opensans-light/OpenSansLight.eot');
+ 	src: url('../fonts/opensans-light/OpenSansLight.eot') format('embedded-opentype'),
+ 	url('../fonts/opensans-light/OpenSansLight.woff2') format('woff2'),
+ 	url('../fonts/opensans-light/OpenSansLight.woff') format('woff'),
+ 	url('../fonts/opensans-light/OpenSansLight.ttf') format('truetype'),
+ 	url('../fonts/opensans-light/OpenSansLight.svg#OpenSansLight') format('svg');
+ }

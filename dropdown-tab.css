@@ -1,0 +1,9 @@
+.dropdown-tab{
+	background-color: #0d1730;
+}
+.dropdown-tab .form-group{
+	margin-bottom: 0px;
+}
+.dropdown-tab .dropdown-btn {
+    width: 100%;
+}

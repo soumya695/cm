@@ -1,0 +1,1766 @@
+{
+    "code": 900,
+    "message": "Player Info",
+    "data": [
+        {
+            "playerId": 3043,
+            "fullName": "Darren Sammy",
+            "shortName": "Darren Sammy",
+            "price": 100000,
+            "uncapped": true,
+            "nationality": "West Indian",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": "CSK",
+            "teamName": "Peshawar Zalmi",
+            "teamAbbreviation": "PZ"
+        },
+        {
+            "playerId": 2911,
+            "fullName": "Kamran Akmal",
+            "shortName": "Kamran Akmal",
+            "price": 95000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "keeper",
+                "batsman"
+            ],
+            "teamId": "RCB",
+            "teamName": "Peshawar Zalmi",
+            "teamAbbreviation": "PZ"
+        },
+        {
+            "playerId": 2958,
+            "fullName": "Mohammad Hafeez",
+            "shortName": "Mohammad Hafeez",
+            "price": 90000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "batsman"
+            ],
+            "teamId": "MI",
+            "teamName": "Peshawar Zalmi",
+            "teamAbbreviation": "PZ"
+        },
+        {
+            "playerId": 3325,
+            "fullName": "Tamim Iqbal",
+            "shortName": "Tamim Iqbal",
+            "price": 100000,
+            "uncapped": true,
+            "nationality": "bangladeshi",
+            "role": [
+                "batsman"
+            ],
+            "teamId": "RR",
+            "teamName": "Peshawar Zalmi",
+            "teamAbbreviation": "PZ"
+        },
+        {
+            "playerId": 18949,
+            "fullName": "Haris  Sohail",
+            "shortName": "Haris Sohail",
+            "price": 90000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": "K11P",
+            "teamName": "Peshawar Zalmi",
+            "teamAbbreviation": "PZ"
+        },
+        {
+            "playerId": 3030,
+            "fullName": "Dwayne Bravo",
+            "shortName": "Dwayne Bravo",
+            "price": 95000,
+            "uncapped": true,
+            "nationality": "West Indian",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": "PUNE Warriors",
+            "teamName": "Peshawar Zalmi",
+            "teamAbbreviation": "PZ"
+        },
+        {
+            "playerId": 54319,
+            "fullName": "Mohammad  Asghar",
+            "shortName": "Mohammad Asghar",
+            "price": 85000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "bowler"
+            ],
+            "teamId": "KKR",
+            "teamName": "Peshawar Zalmi",
+            "teamAbbreviation": "PZ"
+        },
+        {
+            "playerId": 52346,
+            "fullName": "Hasan Ali",
+            "shortName": "Hasan Ali",
+            "price": 85000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "bowler"
+            ],
+            "teamId": "",
+            "teamName": "Peshawar Zalmi",
+            "teamAbbreviation": "PZ"
+        },
+        {
+            "playerId": 18651,
+            "fullName": "Christopher Jordan",
+            "shortName": "Chris Jordan",
+            "price": 95000,
+            "uncapped": true,
+            "nationality": "British",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 50,
+            "teamName": "Peshawar Zalmi",
+            "teamAbbreviation": "PZ"
+        },
+        {
+            "playerId": 3542,
+            "fullName": "Wahab Riaz",
+            "shortName": "Wahab Riaz",
+            "price": 90000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 50,
+            "teamName": "Peshawar Zalmi",
+            "teamAbbreviation": "PZ"
+        },
+        {
+            "playerId": 39701,
+            "fullName": "Hafiz Nasim",
+            "shortName": "Saad Nasim",
+            "price": 80000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 50,
+            "teamName": "Peshawar Zalmi",
+            "teamAbbreviation": "PZ"
+        },
+        {
+            "playerId": 3208,
+            "fullName": "Shakib Shakib",
+            "shortName": "Shakib Al Hasan",
+            "price": 95000,
+            "uncapped": true,
+            "nationality": "bangladeshi",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 50,
+            "teamName": "Peshawar Zalmi",
+            "teamAbbreviation": "PZ"
+        },
+        {
+            "playerId": 4461,
+            "fullName": "Hammad Azam",
+            "shortName": "Hammad Azam",
+            "price": 75000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 50,
+            "teamName": "Peshawar Zalmi",
+            "teamAbbreviation": "PZ"
+        },
+        {
+            "playerId": 3946,
+            "fullName": "Andre Fletcher",
+            "shortName": "Andre Fletcher",
+            "price": 85000,
+            "uncapped": true,
+            "nationality": "West Indian",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 50,
+            "teamName": "Peshawar Zalmi",
+            "teamAbbreviation": "PZ"
+        },
+        {
+            "playerId": 52954,
+            "fullName": "Khushdil Shah",
+            "shortName": "Khushdil Shah",
+            "price": 75000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 50,
+            "teamName": "Peshawar Zalmi",
+            "teamAbbreviation": "PZ"
+        },
+        {
+            "playerId": 44595,
+            "fullName": "Khalid Usman",
+            "shortName": "Khalid Usman",
+            "price": 65000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 50,
+            "teamName": "Peshawar Zalmi",
+            "teamAbbreviation": "PZ"
+        },
+        {
+            "playerId": 56216,
+            "fullName": "Ibtisam Sheikh",
+            "shortName": "Ibtisam Sheikh",
+            "nationality": "Pakistani",
+            "price": 65000,
+            "uncapped": true,
+            "role": [
+                "bowler"
+            ],
+            "teamId": 50,
+            "teamName": "Peshawar Zalmi",
+            "teamAbbreviation": "PZ"
+        },
+        {
+            "playerId": 54411,
+            "fullName": "Sameen Gul",
+            "shortName": "Sameen Gul",
+            "nationality": "Pakistani",
+            "price": 65000,
+            "uncapped": true,
+            "role": [
+                "bowler"
+            ],
+            "teamId": 50,
+            "teamName": "Peshawar Zalmi",
+            "teamAbbreviation": "PZ"
+        },
+        {
+            "playerId": 54396,
+            "fullName": "Taimoor Sultan",
+            "shortName": "Taimoor Sultan",
+            "nationality": "Pakistani",
+            "price": 70000,
+            "uncapped": true,
+            "role": [
+                "batsman"
+            ],
+            "teamId": 50,
+            "teamName": "Peshawar Zalmi",
+            "teamAbbreviation": "PZ"
+        },
+        {
+            "playerId": 2326,
+            "fullName": "Shoaib Malik",
+            "shortName": "Shoaib Malik",
+            "price": 100000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 87,
+            "teamName": "Multan Sultans",
+            "teamAbbreviation": "MS"
+        },
+        {
+            "playerId": 2242,
+            "fullName": "Kumar Sangakkara",
+            "shortName": "Kumar Sangakkara",
+            "price": 95000,
+            "uncapped": true,
+            "nationality": "Srilankan",
+            "role": [
+                "keeper",
+                "batsman"
+            ],
+            "teamId": 87,
+            "teamName": "Multan Sultans",
+            "teamAbbreviation": "MS"
+        },
+        {
+            "playerId": 3563,
+            "fullName": "Darren Bravo",
+            "shortName": "Darren Bravo",
+            "price": 85000,
+            "uncapped": true,
+            "nationality": "Trinidadian/ Tobagonian",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 87,
+            "teamName": "Multan Sultans",
+            "teamAbbreviation": "MS"
+        },
+        {
+            "playerId": 3557,
+            "fullName": "Ahmed Shehzad",
+            "shortName": "Ahmed Shehzad",
+            "price": 95000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 87,
+            "teamName": "Multan Sultans",
+            "teamAbbreviation": "MS"
+        },
+        {
+            "playerId": 3330,
+            "fullName": "Kieron Pollard",
+            "shortName": "Kieron Pollard",
+            "price": 105000,
+            "uncapped": true,
+            "nationality": "Trinidadian/ Tobagonian",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 87,
+            "teamName": "Multan Sultans",
+            "teamAbbreviation": "MS"
+        },
+        {
+            "playerId": 3968,
+            "fullName": "Mohammad Tahir",
+            "shortName": "Imran Tahir",
+            "price": 95000,
+            "uncapped": true,
+            "nationality": "South African",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 87,
+            "teamName": "Multan Sultans",
+            "teamAbbreviation": "MS"
+        },
+        {
+            "playerId": 3379,
+            "fullName": "Sohail Tanvir",
+            "shortName": "Sohail Tanvir",
+            "price": 90000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 87,
+            "teamName": "Multan Sultans",
+            "teamAbbreviation": "MS"
+        },
+        {
+            "playerId": 5126,
+            "fullName": "Shan Khan",
+            "shortName": "Shan Masood",
+            "price": 80000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 87,
+            "teamName": "Multan Sultans",
+            "teamAbbreviation": "MS"
+        },
+        {
+            "playerId": 36959,
+            "fullName": "Sohaib Maqsood",
+            "shortName": "Sohaib Maqsood",
+            "price": 85000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 87,
+            "teamName": "Multan Sultans",
+            "teamAbbreviation": "MS"
+        },
+        {
+            "playerId": 26170,
+            "fullName": "Mohammad Khan",
+            "shortName": "Junaid Khan",
+            "price": 85000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 87,
+            "teamName": "Multan Sultans",
+            "teamAbbreviation": "MS"
+        },
+        {
+            "playerId": 13751,
+            "fullName": "Kashif Bhatti",
+            "shortName": "Kashif Bhatti",
+            "price": 80000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 87,
+            "teamName": "Multan Sultans",
+            "teamAbbreviation": "MS"
+        },
+        {
+            "playerId": 5188,
+            "fullName": "Mohammad Irfan",
+            "shortName": "Mohammad Irfan",
+            "price": 90000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 87,
+            "teamName": "Multan Sultans",
+            "teamAbbreviation": "MS"
+        },
+        {
+            "playerId": 53762,
+            "fullName": "Mohammad  Abbas",
+            "shortName": "Mohammad Abbas",
+            "price": 70000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 87,
+            "teamName": "Multan Sultans",
+            "teamAbbreviation": "MS"
+        },
+        {
+            "playerId": 51792,
+            "fullName": "Nicolas Pooran",
+            "shortName": "Nicolas Pooran",
+            "price": 80000,
+            "uncapped": true,
+            "nationality": "Trinidadian/ Tobagonian",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 87,
+            "teamName": "Multan Sultans",
+            "teamAbbreviation": "MS"
+        },
+        {
+            "playerId": 54702,
+            "fullName": "Saif Badar",
+            "shortName": "Saif Badar",
+            "price": 70000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 87,
+            "teamName": "Multan Sultans",
+            "teamAbbreviation": "MS"
+        },
+        {
+            "playerId": 13283,
+            "fullName": "Hardus Viljoen",
+            "shortName": "Hardus Viljoen",
+            "price": 80000,
+            "uncapped": true,
+            "nationality": "South African",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 87,
+            "teamName": "Multan Sultans",
+            "teamAbbreviation": "MS"
+        },
+        {
+            "playerId": 2959,
+            "fullName": "Umar Gul",
+            "shortName": "Umar Gul",
+            "price": 85000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 87,
+            "teamName": "Multan Sultans",
+            "teamAbbreviation": "MS"
+        },
+        {
+            "playerId": 52154,
+            "fullName": "Umar Khan",
+            "shortName": "Umar Siddiq",
+            "price": 65000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 87,
+            "teamName": "Multan Sultans",
+            "teamAbbreviation": "MS"
+        },
+        {
+            "playerId": 33488,
+            "fullName": "Ross Whiteley",
+            "shortName": "Ross Whiteley",
+            "price": 80000,
+            "uncapped": true,
+            "nationality": "British",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 87,
+            "teamName": "Multan Sultans",
+            "teamAbbreviation": "MS"
+        },
+        {
+            "playerId": 3625,
+            "fullName": "Narangoda Perera ",
+            "shortName": "Thisara Perera",
+            "price": 95000,
+            "uncapped": true,
+            "nationality": "Srilankan",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 87,
+            "teamName": "Multan Sultans",
+            "teamAbbreviation": "MS"
+        },
+        {
+            "playerId": 54347,
+            "fullName": "Zahir Khan",
+            "shortName": "Zahir Khan",
+            "price": 80000,
+            "uncapped": true,
+            "nationality": "Afghan",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 87,
+            "teamName": "Multan Sultans",
+            "teamAbbreviation": "MS"
+        },
+        {
+            "playerId": 3429,
+            "fullName": "Sarfraz Ahmed",
+            "shortName": "Sarfraz Ahmed",
+            "price": 100000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+               "keeper",
+                "batsman"
+            ],
+            "teamId": 52,
+            "teamName": "Quetta Gladiators",
+            "teamAbbreviation": "QG"
+        },
+        {
+            "playerId": 3101,
+            "fullName": "Kevin Pietersen",
+            "shortName": "Kevin Pietersen",
+            "price": 100000,
+            "uncapped": true,
+            "nationality": "British",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 52,
+            "teamName": "Quetta Gladiators",
+            "teamAbbreviation": "QG"
+        },
+        {
+            "playerId": 2865,
+            "fullName": "Shane Watson",
+            "shortName": "Shane Watson",
+            "price": 105000,
+            "uncapped": true,
+            "nationality": "Australian",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 52,
+            "teamName": "Quetta Gladiators",
+            "teamAbbreviation": "QG"
+        },
+        {
+            "playerId": 3613,
+            "fullName": "Rilee Rossouw",
+            "shortName": "Rilee Rossouw",
+            "price": 90000,
+            "uncapped": true,
+            "nationality": "South African",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 52,
+            "teamName": "Quetta Gladiators",
+            "teamAbbreviation": "QG"
+        },
+        {
+            "playerId": 3364,
+            "fullName": "Mohammad Mahmudullah",
+            "shortName": "Mahmudullah",
+            "price": 90000,
+            "uncapped": true,
+            "nationality": "Bangladeshi",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 52,
+            "teamName": "Quetta Gladiators",
+            "teamAbbreviation": "QG"
+        },
+        {
+            "playerId": 24391,
+            "fullName": "Jason Roy",
+            "shortName": "Jason Roy",
+            "price": 95000,
+            "uncapped": true,
+            "nationality": "British",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 52,
+            "teamName": "Quetta Gladiators",
+            "teamAbbreviation": "QG"
+        },
+        {
+            "playerId": 5150,
+            "fullName": "Asad Shafiq",
+            "shortName": "Asad Shafiq",
+            "price": 85000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 52,
+            "teamName": "Quetta Gladiators",
+            "teamAbbreviation": "QG"
+        },
+        {
+            "playerId": 46912,
+            "fullName": "Mohammad Nawaz",
+            "shortName": "Mohammad Nawaz (3)",
+            "price": 85000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 52,
+            "teamName": "Quetta Gladiators",
+            "teamAbbreviation": "QG"
+        },
+        {
+            "playerId": 4005,
+            "fullName": "Anwar Ali",
+            "shortName": "Anwar Ali",
+            "price": 85000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 52,
+            "teamName": "Quetta Gladiators",
+            "teamAbbreviation": "QG"
+        },
+        {
+            "playerId": 55162,
+            "fullName": "Jofra Archer",
+            "shortName": "Jofra Archer",
+            "price": 85000,
+            "uncapped": true,
+            "nationality": "Barbadian  (Bajan)",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 52,
+            "teamName": "Quetta Gladiators",
+            "teamAbbreviation": "QG"
+        },
+        {
+            "playerId": 14950,
+            "fullName": "Rahat Ali",
+            "shortName": "Rahat Ali",
+            "price": 80000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 52,
+            "teamName": "Quetta Gladiators",
+            "teamAbbreviation": "QG"
+        },
+        {
+            "playerId": 4499,
+            "fullName": "Rameez Raja",
+            "shortName": "Rameez Raja (2)",
+            "price": 75000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 52,
+            "teamName": "Quetta Gladiators",
+            "teamAbbreviation": "QG"
+        },
+        {
+            "playerId": 52666,
+            "fullName": "Saad Ali",
+            "shortName": "Saad Ali",
+            "price": 70000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 52,
+            "teamName": "Quetta Gladiators",
+            "teamAbbreviation": "QG"
+        },
+        {
+            "playerId": 3552,
+            "fullName": "Umar Amin",
+            "shortName": "Umar Amin",
+            "price": 70000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 52,
+            "teamName": "Quetta Gladiators",
+            "teamAbbreviation": "QG"
+        },
+        {
+            "playerId": 46887,
+            "fullName": "Mir Hamza",
+            "shortName": "Mir Hamza",
+            "price": 70000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 52,
+            "teamName": "Quetta Gladiators",
+            "teamAbbreviation": "QG"
+        },
+        {
+            "playerId": 54697,
+            "fullName": "Hasan Khan",
+            "shortName": "Hasan Khan",
+            "price": 65000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 52,
+            "teamName": "Quetta Gladiators",
+            "teamAbbreviation": "QG"
+        },
+        {
+            "playerId": 52901,
+            "fullName": "Saud Shakeel",
+            "shortName": "Saud Shakil",
+            "price": 65000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 52,
+            "teamName": "Quetta Gladiators",
+            "teamAbbreviation": "QG"
+        },
+        {
+            "playerId": 54221,
+            "fullName": "Rashid Arman",
+            "shortName": "Rashid Khan",
+            "price": 110000,
+            "uncapped": true,
+            "nationality": "Afghan",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 52,
+            "teamName": "Quetta Gladiators",
+            "teamAbbreviation": "QG"
+        },
+        {
+            "playerId": 5358,
+            "fullName": "Mohammad Khan",
+            "shortName": "Mohammad Azam Khan",
+            "price": 65000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 52,
+            "teamName": "Quetta Gladiators",
+            "teamAbbreviation": "QG"
+        },
+        {
+            "playerId": 18690,
+            "fullName": "Faraz Khan",
+            "shortName": "Faraz Ahmed",
+            "price": 70000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 52,
+            "teamName": "Quetta Gladiators",
+            "teamAbbreviation": "QG"
+        },
+        {
+            "playerId": 53505,
+            "fullName": "Chris  Green",
+            "shortName": "Chris Green",
+            "price": 75000,
+            "uncapped": true,
+            "nationality": "Australian",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 52,
+            "teamName": "Quetta Gladiators",
+            "teamAbbreviation": "QG"
+        },
+        {
+            "playerId": 3522,
+            "fullName": "John Hastings",
+            "shortName": "John Hastings",
+            "price": 85000,
+            "uncapped": true,
+            "nationality": "Australian",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 52,
+            "teamName": "Quetta Gladiators",
+            "teamAbbreviation": "QG"
+        },
+        {
+            "playerId": 4214,
+            "fullName": "Ben Laughlin",
+            "shortName": "Ben Laughlin",
+            "price": 85000,
+            "uncapped": true,
+            "nationality": "Australian",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 52,
+            "teamName": "Quetta Gladiators",
+            "teamAbbreviation": "QG"
+        },
+        {
+            "playerId": 1756,
+            "fullName": "Misbah-ul-Haq Misbah",
+            "shortName": "Misbah-ul-Haq",
+            "price": 100000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 51,
+            "teamName": "Islamabad United",
+            "teamAbbreviation": "IU"
+        },
+        {
+            "playerId": 47191,
+            "fullName": "Samuel Billings",
+            "shortName": "Samuel Billings",
+            "price": 95000,
+            "uncapped": true,
+            "nationality": "British",
+            "role": [
+                "Keeper",
+                "batsman"
+            ],
+            "teamId": 51,
+            "teamName": "Islamabad United",
+            "teamAbbreviation": "IU"
+        },
+        {
+            "playerId": 47805,
+            "fullName": "Asif Ali",
+            "shortName": "Asif Ali",
+            "price": 70000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 51,
+            "teamName": "Islamabad United",
+            "teamAbbreviation": "IU"
+        },
+        {
+            "playerId": 52239,
+            "fullName": "Sahibzada  Farhan",
+            "shortName": "Sahibzada Farhan",
+            "price": 70000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 51,
+            "teamName": "Islamabad United",
+            "teamAbbreviation": "IU"
+        },
+        {
+            "playerId": 54693,
+            "fullName": "Shadab Khan",
+            "shortName": "Shadab Khan",
+            "price": 80000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 51,
+            "teamName": "Islamabad United",
+            "teamAbbreviation": "IU"
+        },
+        {
+            "playerId": 4293,
+            "fullName": "Samuel Badree",
+            "shortName": "Samuel Badree",
+            "price": 95000,
+            "uncapped": true,
+            "nationality": "West Indian",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 51,
+            "teamName": "Islamabad United",
+            "teamAbbreviation": "IU"
+        },
+        {
+            "playerId": 3705,
+            "fullName": "Luke  Ronchi",
+            "shortName": "Luke Ronchi",
+            "price": 90000,
+            "uncapped": true,
+            "nationality": "Australian",
+            "role": [
+                "keeper",
+                "batsman"
+            ],
+            "teamId": 51,
+            "teamName": "Islamabad United",
+            "teamAbbreviation": "IU"
+        },
+        {
+            "playerId": 3077,
+            "fullName": "Jean-Paul Duminy",
+            "shortName": "JP Duminy",
+            "price": 105000,
+            "uncapped": true,
+            "nationality": "South African",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 51,
+            "teamName": "Islamabad United",
+            "teamAbbreviation": "IU"
+        },
+        {
+            "playerId": 53004,
+            "fullName": "Amad Butt",
+            "shortName": "Amad Butt",
+            "price": 75000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 51,
+            "teamName": "Islamabad United",
+            "teamAbbreviation": "IU"
+        },
+        {
+            "playerId": 5215,
+            "fullName": "Andre Russell",
+            "shortName": "Andre Russell",
+            "price": 105000,
+            "uncapped": true,
+            "nationality": "West Indian",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 51,
+            "teamName": "Islamabad United",
+            "teamAbbreviation": "IU"
+        },
+        {
+            "playerId": 49834,
+            "fullName": "Rumman Khan",
+            "shortName": "Rumman Raees",
+            "price": 80000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 51,
+            "teamName": "Islamabad United",
+            "teamAbbreviation": "IU"
+        },
+        {
+            "playerId": 51867,
+            "fullName": "Mohammad Talat",
+            "shortName": "Hussain Talat",
+            "price": 80000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 51,
+            "teamName": "Islamabad United",
+            "teamAbbreviation": "IU"
+        },
+        {
+            "playerId": 1819,
+            "fullName": "Mohammad Sami",
+            "shortName": "Mohammad Sami",
+            "price": 85000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 51,
+            "teamName": "Islamabad United",
+            "teamAbbreviation": "IU"
+        },
+        {
+            "playerId": 15139,
+            "fullName": "Alex Hales",
+            "shortName": "Alex Hales",
+            "price": 90000,
+            "uncapped": true,
+            "nationality": "British",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 51,
+            "teamName": "Islamabad United",
+            "teamAbbreviation": "IU"
+        },
+        {
+            "playerId": 52363,
+            "fullName": "Faheem Ashraf",
+            "shortName": "Faheem Ashraf",
+            "price": 80000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 51,
+            "teamName": "Islamabad United",
+            "teamAbbreviation": "IU"
+        },
+        {
+            "playerId": 16555,
+            "fullName": "Iftikhar Ahmed",
+            "shortName": "Iftikhar Ahmed",
+            "price": 75000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 51,
+            "teamName": "Islamabad United",
+            "teamAbbreviation": "IU"
+        },
+        {
+            "playerId": 51995,
+            "fullName": "Zafar  Khan",
+            "shortName": "Zafar Gohar",
+            "price": 75000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 51,
+            "teamName": "Islamabad United",
+            "teamAbbreviation": "IU"
+        },
+        {
+            "playerId": 26310,
+            "fullName": "David Willey",
+            "shortName": "David Willey",
+            "price": 90000,
+            "uncapped": true,
+            "nationality": "British",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 51,
+            "teamName": "Islamabad United",
+            "teamAbbreviation": "IU"
+        },
+        {
+            "playerId": 29216,
+            "fullName": "Mohammad  Hasan",
+            "shortName": "Mohammad Hasan",
+            "price": 80000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "keeper",
+                "batsman"
+            ],
+            "teamId": 51,
+            "teamName": "Islamabad United",
+            "teamAbbreviation": "IU"
+        },
+        {
+            "playerId": 56307,
+            "fullName": "Rohail Nazir",
+            "shortName": "Rohail Nazir",
+            "price": 70000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 51,
+            "teamName": "Islamabad United",
+            "teamAbbreviation": "IU"
+        },
+        {
+            "playerId": 4235,
+            "fullName": "Chadwick Walton",
+            "shortName": "Chadwick Walton",
+            "price": 85000,
+            "uncapped": true,
+            "nationality": "West Indian",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 51,
+            "teamName": "Islamabad United",
+            "teamAbbreviation": "IU"
+        },
+        {
+            "playerId": 3873,
+            "fullName": "Samit Patel",
+            "shortName": "Samit Patel",
+            "price": 85000,
+            "uncapped": true,
+            "nationality": "British",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 51,
+            "teamName": "Islamabad United",
+            "teamAbbreviation": "IU"
+        },
+        {
+            "playerId": 3569,
+            "fullName": "Steven Finn",
+            "shortName": "Steven Finn",
+            "price": 90000,
+            "uncapped": true,
+            "nationality": "British",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 51,
+            "teamName": "Islamabad United",
+            "teamAbbreviation": "IU"
+        },
+        {
+            "playerId": 1677,
+            "fullName": "Brendon McCullum",
+            "shortName": "Brendon McCullum",
+            "price": 95000,
+            "uncapped": true,
+            "nationality": "New Zealand",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 49,
+            "teamName": "Lahore Qalandars",
+            "teamAbbreviation": "LQ"
+        },
+        {
+            "playerId": 22373,
+            "fullName": "Cameron Delport",
+            "shortName": "Cameron Delport",
+            "price": 85000,
+            "uncapped": true,
+            "nationality": "Australian",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 49,
+            "teamName": "Lahore Qalandars",
+            "teamAbbreviation": "LQ"
+        },
+        {
+            "playerId": 3566,
+            "fullName": "Umar Akmal",
+            "shortName": "Umar Akmal",
+            "price": 90000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "keeper",
+                "batsman"
+            ],
+            "teamId": 49,
+            "teamName": "Lahore Qalandars",
+            "teamAbbreviation": "LQ"
+        },
+        {
+            "playerId": 4402,
+            "fullName": "Christopher Lynn",
+            "shortName": "Chris Lynn",
+            "price": 95000,
+            "uncapped": true,
+            "nationality": "Austrlian",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 49,
+            "teamName": "Lahore Qalandars",
+            "teamAbbreviation": "LQ"
+        },
+        {
+            "playerId": 54386,
+            "fullName": "Ghulam Mudassar",
+            "shortName": "Ghulam Mudassar",
+            "price": 70000,
+            "uncapped": true,
+            "nationality": "Austrlian",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 49,
+            "teamName": "Lahore Qalandars",
+            "teamAbbreviation": "LQ"
+        },
+        {
+            "playerId": 33950,
+            "fullName": "Aamer Yamin",
+            "shortName": "Aamer Yamin",
+            "price": 70000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 49,
+            "teamName": "Lahore Qalandars",
+            "teamAbbreviation": "LQ"
+        },
+        {
+            "playerId": 16895,
+            "fullName": "Yasir Shah",
+            "shortName": "Yasir Shah",
+            "price": 85000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 49,
+            "teamName": "Lahore Qalandars",
+            "teamAbbreviation": "LQ"
+        },
+        {
+            "playerId": 4663,
+            "fullName": "Sunil Narine",
+            "shortName": "Sunil Narine",
+            "price": 105000,
+            "uncapped": true,
+            "nationality": "West Indian",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 49,
+            "teamName": "Lahore Qalandars",
+            "teamAbbreviation": "LQ"
+        },
+        {
+            "playerId": 26301,
+            "fullName": "Mustafizur Rahman",
+            "shortName": "Mustafizur Rahman",
+            "price": 95000,
+            "uncapped": true,
+            "nationality": "Bangladeshi",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 49,
+            "teamName": "Lahore Qalandars",
+            "teamAbbreviation": "LQ"
+        },
+        {
+            "playerId": 46437,
+            "fullName": "Mohammad Asif",
+            "shortName": "Bilal Asif",
+            "price": 80000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 49,
+            "teamName": "Lahore Qalandars",
+            "teamAbbreviation": "LQ"
+        },
+        {
+            "playerId": 3538,
+            "fullName": "Sohail Khan",
+            "shortName": "Sohail Khan",
+            "price": 80000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 49,
+            "teamName": "Lahore Qalandars",
+            "teamAbbreviation": "LQ"
+        },
+        {
+            "playerId": 49828,
+            "fullName": "Raza Hasan",
+            "shortName": "Raza Hasan",
+            "price": 75000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 49,
+            "teamName": "Lahore Qalandars",
+            "teamAbbreviation": "LQ"
+        },
+        {
+            "playerId": 52030,
+            "fullName": "Sohail Akhtar",
+            "shortName": "Sohail Akhtar",
+            "price": 70000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 49,
+            "teamName": "Lahore Qalandars",
+            "teamAbbreviation": "LQ"
+        },
+        {
+            "playerId": 56198,
+            "fullName": "Shaheen Afridi",
+            "shortName": "Shaheen Afridi",
+            "price": 65000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 49,
+            "teamName": "Lahore Qalandars",
+            "teamAbbreviation": "LQ"
+        },
+        {
+            "playerId": 5066,
+            "fullName": "Anton Devcich",
+            "shortName": "Anton Devcich",
+            "price": 75000,
+            "uncapped": true,
+            "nationality": "Newzelander",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 49,
+            "teamName": "Lahore Qalandars",
+            "teamAbbreviation": "LQ"
+        },
+        {
+            "playerId": 5167,
+            "fullName": "Mitchell McClenaghan",
+            "shortName": "Mitchell McClenaghan",
+            "price": 90000,
+            "uncapped": true,
+            "nationality": "Australian",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 49,
+            "teamName": "Lahore Qalandars",
+            "teamAbbreviation": "LQ"
+        },
+        {
+            "playerId": 11291,
+            "fullName": "Gulraiz Sadaf",
+            "shortName": "Gulraiz Sadaf",
+            "price": 70000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 49,
+            "teamName": "Lahore Qalandars",
+            "teamAbbreviation": "LQ"
+        },
+        {
+            "playerId": 54094,
+            "fullName": "Salman Irshad",
+            "shortName": "Salman Irshad",
+            "price": 70000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 49,
+            "teamName": "Lahore Qalandars",
+            "teamAbbreviation": "LQ"
+        },
+        {
+            "playerId": 53951,
+            "fullName": "Imran Khan",
+            "shortName": "Imran Khan (1)",
+            "price": 75000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 49,
+            "teamName": "Lahore Qalandars",
+            "teamAbbreviation": "LQ"
+        },
+        {
+            "playerId": 3130,
+            "fullName": "Denesh Ramdin",
+            "shortName": "Denesh Ramdin",
+            "price": 85000,
+            "uncapped": true,
+            "nationality": "West Indian",
+            "role": [
+                "keeper",
+                "batsman"
+            ],
+            "teamId": 49,
+            "teamName": "Lahore Qalandars",
+            "teamAbbreviation": "LQ"
+        },
+        {
+            "playerId": 46567,
+            "fullName": "Fakhar Zaman",
+            "shortName": "Fakhar Zaman",
+            "price": 75000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 49,
+            "teamName": "Lahore Qalandars",
+            "teamAbbreviation": "LQ"
+        },
+        {
+            "playerId": 53480,
+            "fullName": "Syed  Wasim",
+            "shortName": "Imad Wasim",
+            "price": 95000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 48,
+            "teamName": "Karachi Kings",
+            "teamAbbreviation": "KK"
+        },
+        {
+            "playerId": 12772,
+            "fullName": "Mohammad Rizwan",
+            "shortName": "Mohammad Rizwan",
+            "price": 95000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "keeper",
+                "batsman"
+            ],
+            "teamId": 48,
+            "teamName": "Karachi Kings",
+            "teamAbbreviation": "KK"
+        },
+        {
+            "playerId": 3543,
+            "fullName": "Khurram Manzoor",
+            "shortName": "Khurram Manzoor",
+            "price": 85000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 48,
+            "teamName": "Karachi Kings",
+            "teamAbbreviation": "KK"
+        },
+        {
+            "playerId": 2286,
+            "fullName": "Sahibzada Afridi",
+            "shortName": "Shahid Afridi",
+            "price": 105000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 48,
+            "teamName": "Karachi Kings",
+            "teamAbbreviation": "KK"
+        },
+        {
+            "playerId": 3305,
+            "fullName": "Ravi Bopara",
+            "shortName": "Ravi Bopara",
+            "price": 90000,
+            "uncapped": true,
+            "nationality": "British",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 48,
+            "teamName": "Karachi Kings",
+            "teamAbbreviation": "KK"
+        },
+        {
+            "playerId": 47117,
+            "fullName": "Saifullah Bangash",
+            "shortName": "Saifullah Bangash",
+            "price": 80000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "keeper",
+                "batsman"
+            ],
+            "teamId": 48,
+            "teamName": "Karachi Kings",
+            "teamAbbreviation": "KK"
+        },
+        {
+            "playerId": 52226,
+            "fullName": "Usama Mir",
+            "shortName": "Usama Mir",
+            "price": 80000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 48,
+            "teamName": "Karachi Kings",
+            "teamAbbreviation": "KK"
+        },
+        {
+            "playerId": 52234,
+            "fullName": "Usman Shinwari",
+            "shortName": "Usman Khan",
+            "price": 80000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 48,
+            "teamName": "Karachi Kings",
+            "teamAbbreviation": "KK"
+        },
+        {
+            "playerId": 4186,
+            "fullName": "Mohammad Amir",
+            "shortName": "Mohammad Amir",
+            "price": 90000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 48,
+            "teamName": "Karachi Kings",
+            "teamAbbreviation": "KK"
+        },
+        {
+            "playerId": 4298,
+            "fullName": "Colin Ingram",
+            "shortName": "Colin Ingram",
+            "price": 90000,
+            "uncapped": true,
+            "nationality": "South African",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 48,
+            "teamName": "Karachi Kings",
+            "teamAbbreviation": "KK"
+        },
+        {
+            "playerId": 53907,
+            "fullName": "Tymal Mills",
+            "shortName": "Tymal Mills",
+            "price": 95000,
+            "uncapped": true,
+            "nationality": "British",
+            "role": [
+                "bowler"
+            ],
+            "teamId": 48,
+            "teamName": "Karachi Kings",
+            "teamAbbreviation": "KK"
+        },
+        {
+            "playerId": 3795,
+            "fullName": "Joseph Denly",
+            "shortName": "Joseph Denly",
+            "price": 75000,
+            "uncapped": true,
+            "nationality": "British",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 48,
+            "teamName": "Karachi Kings",
+            "teamAbbreviation": "KK"
+        },
+        {
+            "playerId": 32105,
+            "fullName": "Tabish Khan",
+            "shortName": "Tabish Khan",
+            "price": 70000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 48,
+            "teamName": "Karachi Kings",
+            "teamAbbreviation": "KK"
+        },
+        {
+            "playerId": 54683,
+            "fullName": "Hasan Mohsin",
+            "shortName": "Hasan Mohsin",
+            "price": 65000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 48,
+            "teamName": "Karachi Kings",
+            "teamAbbreviation": "KK"
+        },
+        {
+            "playerId": 3283,
+            "fullName": "Lendl Simmons",
+            "shortName": "Lendl Simmons",
+            "price": 95000,
+            "uncapped": true,
+            "nationality": "West Indian",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 48,
+            "teamName": "Karachi Kings",
+            "teamAbbreviation": "KK"
+        },
+        {
+            "playerId": 3249,
+            "fullName": "Eoin Morgan",
+            "shortName": "Eoin Morgan",
+            "price": 100000,
+            "uncapped": true,
+            "nationality": "British",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 48,
+            "teamName": "Karachi Kings",
+            "teamAbbreviation": "KK"
+        },
+        {
+            "playerId": 54452,
+            "fullName": "Mohammed Taha",
+            "shortName": "Mohammed Taha",
+            "price": 70000,
+            "uncapped": true,
+            "nationality": "Pakistani",
+            "role": [
+                "batsman"
+            ],
+            "teamId": 48,
+            "teamName": "Karachi Kings",
+            "teamAbbreviation": "KK"
+        },
+        {
+            "playerId": 36154,
+            "fullName": "David Wiese",
+            "shortName": "David Wiese",
+            "price": 90000,
+            "uncapped": true,
+            "nationality": "South African",
+            "role": [
+                "allrounder"
+            ],
+            "teamId": 48,
+            "teamName": "Karachi Kings",
+            "teamAbbreviation": "KK"
+        }
+    ]
+}

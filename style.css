@@ -1,0 +1,218 @@
+/*Font Regular*/
+@font-face{
+  font-family: ALINSN;
+  src: url('../fonts/ALINSN_.ttf')
+}
+
+/*Font SemiBold*/
+@font-face{
+  font-family: ALINSB;
+  src: url('../fonts/ALINSB_.ttf')
+}
+
+/*Font Bold*/
+@font-face{
+  font-family: ALINIB;
+  src: url('../fonts/ALINIB_.ttf')
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+
+/*commmon css*/
+
+body {
+    font-synthesis: none;
+    -moz-font-feature-settings: 'kern';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #F2F4F6;
+}
+
+::-webkit-input-placeholder {
+    color: #000;
+    font-family: 'OpenSansRegular';
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+::-moz-placeholder {
+    color: #000;
+    font-family: 'OpenSansRegular';
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.pad0 {
+    padding: 0px;
+}
+
+.padl0 {
+    padding-left: 0px;
+}
+
+.padr0 {
+    padding-right: 0px;
+}
+
+
+/*header*/
+
+#header-section img {
+    width: 100%;
+    height: 165px;
+    overflow: hidden;
+}
+
+
+/*main wrapper*/
+
+body.fantacy-body {
+    background: url("../images/banner.png");
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-bottom: 60px;
+}
+
+.body-section {
+    background-color: #000;
+    margin: 0px 90px;
+    padding: 20px 15px;
+}
+
+.mshow {
+    display: none !important;
+}
+
+.mhide {
+    display: block !important;
+}
+
+.edit-btn {
+    display: none !important;
+}
+
+
+/*league icons*/
+
+.addperson,
+.create-league,
+.fantasy-league,
+.fantasy-team,
+.dailychallenge {
+    max-width: 100%;
+    background-size: 100%;
+    background-image: url('../images/league.png');
+    display: inline-block;
+    width: 130px;
+    height: 100px;
+}
+
+.addperson {
+    background-position: 0 0%;
+    background-size: 100%;
+}
+
+.create-league {
+    background-position: 0 31.637168%;
+    background-size: 131.034483%;
+}
+
+.fantasy-league {
+    background-position: 0 57.261411%;
+    background-size: 138.686131%;
+    height: 78px;
+}
+
+.fantasy-team {
+    background-position: 0 78.630705%;
+    background-size: 138.686131%;
+    height: 78px;
+}
+
+.dailychallenge {
+    background-position: 0 100%;
+    background-size: 138.686131%;
+    width: 130px;
+    height: 80px;
+}
+
+.back-option {
+    display: none;
+    padding: 0px 10px 0px 10px;
+}
+
+.back-table {
+    display: none;
+}
+
+
+/*responsive css*/
+
+@media screen and (max-width: 991px) {
+    .body-section {
+        margin: 0px 0px;
+        padding: 20px 0px;
+    }
+    .padl0,
+    .padr0 {
+        padding: 0px;
+    }
+    .mhide,
+    .reset-btn {
+        display: none !important;
+    }
+    .mshow {
+        display: block;
+    }
+    .edit-btn {
+        display: inline-block !important;
+    }
+    .search-tab .search-form {
+        width: 86%;
+        display: inline-block;
+    }
+    body.fantacy-body {
+        padding-bottom: 0px;
+    }
+    .back-option {
+        display: inline-block;
+    }
+    .back-table {
+        display: inline-block;
+        padding: 10px;
+    }
+    .dailychallenge {
+        height: 60px;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width:1250px) {
+    .table-footer .btn-white,
+    .table-footer .btn-theme {
+        font-size: 10px !important;
+        padding: 7px 10px;
+    }
+    .budget-header ul li label,
+    .budget-header ul li span {
+        font-size: 10px;
+    }
+    .balance-tab ul li span {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width:1100px) {
+    .body-section {
+        margin: 0px 0px;
+    }
+}

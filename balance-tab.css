@@ -1,0 +1,96 @@
+.balance-tab{
+	background-color: #0d1730;
+}
+.balance-tab ul{
+	margin-bottom: 0px;
+}
+.balance-tab ul li label{
+	width: 13px;
+	height: 13px;
+	border-radius: 100%;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.balance-tab ul li label.balance{
+	background-color: #53c539;
+}
+.balance-tab ul li label.unbalance{
+	background-color: #ed3434;
+}
+.balance-tab ul li{
+	display: inline-block;
+	width: 19%;
+	text-align: center;
+	border-left: 1px solid rgba(255, 255, 255, 0.2);
+	padding: 12px 0px;
+	text-transform: capitalize;
+}
+.balance-tab ul li:first-child{
+	border: none;
+}
+.balance-tab ul li span{
+	font-family: 'OpenSansSemibold';
+	font-size: 11px;
+	display: block;
+	color: #fff;
+	margin-top: 0px;
+}
+/*.balance-franchise,
+.balance-overseas,
+.balance-players, 
+.balance-squad, 
+.balance-uncapped, 
+.unbalance-franchise, 
+.unbalance-overseas, 
+.unbalance-players, 
+.unbalance-squad, 
+.unbalance-uncapped{ 
+	max-width: 100%; 
+	background-size: 100%; 
+	background-image: url('../images/balance.png'); 
+	display: block;
+	height: 50px;
+	width: 50px;
+	margin: 0 auto;
+}
+.balance-franchise { 
+	background-position: 0 0%; 
+	background-size: 100%; 
+}
+.balance-overseas { 
+	background-position: 0 11.111111%; 
+	background-size: 100%; 
+}
+.balance-players { 
+	background-position: 0 22.222222%; 
+	background-size: 100%; 
+}
+.balance-squad { 
+	background-position: 0 33.333333%; 
+	background-size: 100%; 
+}
+.balance-uncapped { 
+	background-position: 0 44.444444%; 
+	background-size: 100%; 
+}
+.unbalance-franchise { 
+	background-position: 0 55.555556%; 
+	background-size: 100%; 
+}
+.unbalance-overseas { 
+	background-position: 0 66.666667%; 
+	background-size: 100%; 
+}
+.unbalance-players { 
+	background-position: 0 77.777778%; 
+	background-size: 100%; 
+}
+.unbalance-squad { 
+	background-position: 0 88.888889%; 
+	background-size: 100%; 
+}
+.unbalance-uncapped { 
+	background-position: 0 100%; 
+	background-size: 100%; 
+}*/

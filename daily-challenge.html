@@ -1,0 +1,437 @@
+<!doctype html>
+<html class="no-js">
+
+
+<head>
+    <meta charset="utf-8">
+    <title>IPL Fantasy League</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- css styles -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="fonts.css" rel="stylesheet">
+    <link href="button.css" rel="stylesheet">
+    <link href="form.css" rel="stylesheet">
+    <link href="teamheader.css" rel="stylesheet">
+    <link href="budget-header.css" rel="stylesheet">
+    <link href="balance-tab.css" rel="stylesheet">
+    <link href="table.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="sub-header.css" rel="stylesheet">
+    <link href="inside-league.css" rel="stylesheet">
+    <link href="ipl-base.css" rel="stylesheet">
+    <link href="dropdown-tab.css" rel="stylesheet">
+    <script src="http://underscorejs.org/underscore-min.js"></script>
+</head>
+<body  class="fantacy-body" >
+
+    <!-- header -->
+    <div id="header-section">
+        <img src="assets/images/header.png">
+    </div>
+    <div id="main-wrapper">
+        <div class="container-fluid body-section">
+            <!-- team header -->
+            <div class="row team-header">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="user-team">
+                        <div class="user-img">
+                            <img src="assets/images/user-img.png">
+                        </div>
+                        <div class="user-details">
+                            <label class="user-name">Hari Prasad's</label>
+                            <label class="user-team-name">Royal Flush</label>
+                            <label class="user-team-status">All in for a great game</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+                    <div class="daily-challenge">
+                        <label>DAILY CHALLENGE</label>
+                        <ul class="daily-team-name">
+                            <li>DD vs KKR</li>
+                            <li>|</li>
+                            <li>KXIP vs RCB</li>
+                        </ul>
+                        <span>12th april , 2017</span>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12 mpad0">
+                    <div class="userScore-details">
+                        <ul>
+                            <li>Score : 6,792</li>
+                            <li>|</li>
+                            <li>Rank : 96318</li>
+                        </ul>
+                        <button class="btn btn-theme">
+                            Share Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- my team list -->
+            <div class="col-md-6 col-sm-12 col-xs-12 pad0 t-list">
+                <div class="team-left">
+                    <!-- budget header -->
+                    <div class="budget-header">
+                        <ul class="list-unstyled">
+                            <li>
+                                <label>
+                                    Total Budget :
+                                </label>
+                                <span>
+                                    10,000
+                                </span>
+                            </li>
+                            <li>
+                                <label>
+                                    Budget Remaining :
+                                </label>
+                                <span>
+                                    10,00,000
+                                </span>
+                            </li>
+                            <li>
+                                <label>
+                                    Sub Remaining -
+                                </label>
+                                <span>
+                                    23
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- balance tab -->
+                    <div class="balance-tab">
+                        <ul class="list-unstyled">
+                            <li>
+                                <label class="balance"></label>
+                                <span>
+                                    squad Balance
+                                </span>
+                            </li>
+                            <li>
+                                <label class="balance"></label>
+                                <span>
+                                    Eleven Players
+                                </span>
+                            </li>
+                            <li>
+                                <label class="unbalance"></label>
+                                <span>
+                                    Franchise Spread
+                                </span>
+                            </li>
+                            <li>
+                                <label class="balance"></label>
+                                <span>
+                                    Overseas Limit
+                                </span>
+                            </li>
+                            <li>
+                                <label class="unbalance"></label>
+                                <span>
+                                    Uncapped Quota
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- my team table -->
+                    <div class="table-section">
+                        <div class="header-background"></div>
+                        <div class="fixed-table-inner">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th class="text-center mhide">
+                                            Sl
+                                            <div class="th-inner">Sl</div>
+                                        </th>
+                                        <th>
+                                            Role
+                                            <div class="th-inner">Role</div>
+                                        </th>
+                                        <th>
+                                            Player
+                                            <div class="th-inner">Player</div>
+                                        </th>
+                                        <th>
+                                            team
+                                            <div class="th-inner">team</div>
+                                        </th>
+                                        <th>
+                                            cost
+                                            <div class="th-inner">cost</div>
+                                        </th>
+                                        <th class="mhide">
+                                            points
+                                            <div class="th-inner">points</div>
+                                        </th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                       
+                                        
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="table-footer">
+                                <div class="col-md-8 col-xs-5">
+                                    <button class="btn btn-white auto-complete">
+                                        Auto complete
+                                    </button>
+                                    <!-- dropdown -->
+                                    <div class="form-group user-form">
+                                        <div class="dropdown dropdown-btn dropup">
+                                            <label class="dropdown-toggle" data-toggle="dropdown">
+                                                Power player
+                                                <span class="caret"></span>
+                                            </label>
+                                            <ul class="dropdown-menu">
+                                                <li>Ganguly</li>
+                                                <li>sachin</li>
+                                                <li>Dravid</li>
+                                                <li>Dhoni</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-xs-7 pad0">
+                                    <button class="btn btn-white reset-btn">
+                                        RESET
+                                    </button>
+                                    <button class="btn btn-white edit-btn">
+                                        Edit
+                                    </button>
+                                    <button class="btn btn-white hide">
+                                        Add
+                                    </button>
+                                    <button class="btn btn-theme save-btn">
+                                        save
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- group team list -->
+            <div class="col-md-6 col-sm-12 col-xs-12 padr0 g-list inactive">
+                <div class="team-left">
+                    <!-- search player form -->
+                    <div class="search-tab">
+                        <label class="bck-btn">
+                            <img src="assets/images/back.png">
+                        </label>
+                        <div class="form-group search-form">
+                            <input type="text" class="form-control" placeholder="SEARCH FOR PLAYERS HERE" autofocus>
+                            <span class="glyphicon glyphicon-search"></span>
+                        </div>
+                    </div>
+                    <!-- dropdown tab -->
+                    <div class="dropdown-tab">
+                        <!-- all role dropdown -->
+                        <div class="form-group user-form">
+                            <div class="dropdown dropdown-btn">
+                                <label class="dropdown-toggle" data-toggle="dropdown">
+                                    All Roles
+                                    <span class="caret"></span>
+                                </label>
+                                <ul class="dropdown-menu">
+                                    <li>Wicket Keeper</li>
+                                    <li>All Rounder</li>
+                                    <li>Bowler</li>
+                                    <li>Batsman</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- all types dropdown -->
+                        <div class="form-group user-form">
+                            <div class="dropdown dropdown-btn">
+                                <label class="dropdown-toggle" data-toggle="dropdown">
+                                    All Types
+                                    <span class="caret"></span>
+                                </label>
+                                <ul class="dropdown-menu">
+                                    <li>Foreign Players</li>
+                                    <li>Uncapped Players</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- all team dropdown -->
+                        <div class="form-group user-form">
+                            <div class="dropdown dropdown-btn">
+                                <label class="dropdown-toggle" data-toggle="dropdown">
+                                    All Teams
+                                    <span class="caret"></span>
+                                </label>
+                                <ul class="dropdown-menu">
+                                    <li>csk</li>
+                                    <li>kkr</li>
+                                    <li>kkr</li>
+                                    <li>kkr</li>
+                                    <li>kkr</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- my team table -->
+
+
+
+
+                    <div class="table-section">
+                        <div class="header-background"></div>
+                        <div class="fixed-table-inner">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr >
+                                       <div id="target"></div>
+                                       <th>
+                                            Role
+                                            <div class="th-inner">Role</div>
+                                        </th>
+                                        <th>
+                                            Player
+                                            <div class="th-inner">Player</div>
+                                        </th>
+                                        <th>
+                                            team
+                                            <div class="th-inner">team</div>
+                                        </th>
+                                        <th>
+                                            cost
+                                            <div class="th-inner">cost</div>
+                                        </th>
+                                        <th class="mhide">
+                                            points
+                                            <div class="th-inner">points</div>
+                                        </th>
+                                        <th>
+                                            
+                                        </th>
+                                   
+                                    </tr>
+                                </thead>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    </table>
+                    
+                        
+                       
+                
+                        <table id="testTab">
+                        <!-- <div id="div"> -->
+                                <tbody>
+<script type="abc" id="list">
+                                <% _.each(items,function(item,i,j)
+                                      { %>
+                                        
+                                          
+                                          <tr >
+                                            <td>
+                                            <span class="bowler"></span>
+                                            </td>
+                                              <td width="20%">
+
+                                              <%= item.player %>
+                                              </td>
+                                              <td width="20%">
+                                               <%= item.team %>
+                                               </td>
+                                              <td width="20%">
+                                              <%= item.cost  %>
+                                              </td>
+                                              <td width="20%"> 
+                                               <%= item.playerId %>
+                                              </td>
+                                              <td class="action-add">
+                                              <span class="plus"></span>
+                                              </td>
+                                              
+                                          </tr>
+                                <% }); %>
+                          </script>
+                          
+                                </tbody>
+                                <!-- </div> -->
+                            </table>
+                        
+                        
+
+             
+
+    <!-- script -->
+    <script>
+           window.onload= function info()
+            {        
+                var xhttp = new XMLHttpRequest();
+                xhttp.onreadystatechange = function (xhr) 
+                {
+
+                    if (this.readyState == 4 && this.status == 200) 
+                    {  
+                        var d=xhttp.responseText;
+                        alert(d)
+                        
+                        var data = JSON.parse(d);
+
+                        //data=JSON.stringify(data['data'])
+                        
+                       // var data=JSON.stringify(data);
+                       
+                        var teams = [];
+
+                            data.data.forEach(function(player){
+                                teams.push
+                                (
+                                  { 
+                                        'player': player.fullName,
+                                        'team': player.teamId,
+                                        'cost': player.price,
+                                        'playerId' : player.playerId,
+                                  } 
+                                );
+                            })
+                        
+                        console.log(teams)
+                         get(teams); 
+                                           
+                    }
+      
+                };
+
+                xhttp.open("GET", "playerList.json", true);
+
+                xhttp.send();
+            }
+            function get(item)
+            {          
+                debugger
+
+                var target = document.getElementById("testTab");
+                console.log(target);
+                var list = document.getElementById("list");
+                //alert(list)           
+                var listDiv = list.innerHTML;
+                var templateData = _.template(listDiv);
+                target.innerHTML= templateData({ items: item });
+                //console.log(list)
+                //alert(target)
+                
+            }
+        
+    </script>
+   
+</body>
+
+</html>
+
